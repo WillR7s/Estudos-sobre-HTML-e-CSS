@@ -1,0 +1,32 @@
+
+.header{
+    background-color:orangered;
+    color:aliceblue;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav{
+    width:200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.produto
+{
+    height:550px;
+    width:500px;
+    background-color: antiquewhite;
+   border-radius:30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.itens
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

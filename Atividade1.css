@@ -6,6 +6,10 @@
     justify-content: space-around;
     align-items: center;
 }
+a {
+    text-decoration:none;
+    color:aliceblue
+}
 
 .nav{
     width:200px;
@@ -16,17 +20,76 @@
 
 .produto
 {
-    height:550px;
+    margin:20px;
+    height: 610px;
     width:500px;
     background-color: antiquewhite;
    border-radius:30px;
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   align-items: center;
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.05);
+  
 }
 .itens
 {
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap:wrap;
+    
+}
+.Imagem{
+    width: 250px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    margin:10px;
+    color:black;
+    font-size:30px;
+}
+.preco{
+   margin:10px;
+    font-size:30px;
+    display:flex;
+    justify-content: center;
+}
+.footer {
+    padding: 25px 0;
+
+    color: #64748b;
+    background-color: #ffffff;
+
+    border-top: 1px solid #e5e7eb;
+
+    text-align: center;
+
+    font-size: 0.9rem;
+}
+
+.card {
+    display:flex;
+    justify-content: center;
+    
+}
+
+.comprar{
+    background-color:orangered;
+    color:aliceblue;
+    border-color: orangered;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.carrinho{
+    
+     background-color:orangered;
+    color:aliceblue;
+    border-color: orangered;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }

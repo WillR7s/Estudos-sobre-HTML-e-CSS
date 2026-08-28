@@ -1,4 +1,7 @@
 
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .header{
     background-color:orangered;
     color:aliceblue;
@@ -6,23 +9,29 @@
     justify-content: space-around;
     align-items: center;
 }
+.logo
+
+{
+    width:200px;
+}
 a {
     text-decoration:none;
     color:aliceblue
 }
 
 .nav{
-    width:200px;
+    width:400px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
 .produto
 {
     margin:20px;
-    height: 610px;
-    width:500px;
+    height:auto;
+    width:auto;
     background-color: antiquewhite;
    border-radius:30px;
    display: flex;
@@ -32,7 +41,7 @@ a {
   
 }
 .Imagem{
-    width: 250px;
+    width: fit-content;
 }
 
 h1{
@@ -83,4 +92,59 @@ h1{
     border-color: orangered;
     border-radius: 5px;
     margin-bottom: 5px;
+}
+@media (max-width: 768px) {  /*Quando a tela tiver 768px, coloque os cards em uma coluna*/
+    .task-list {
+        grid-template-columns: 1fr;
+    }
+
+   body > .comprar,.carrinho  { /*coloca o input e o botão um em baixo do outro*/
+        flex-direction: column;
+    }
+}
+
+.carrinho-img{
+    width:30px;
+   filter: invert(1);      /* inverte a cor da imagem*/
+    
+}
+
+.Frete, .escudo, .fone, .qualidade{
+    width:40px;
+    align-items: center;
+   
+}
+
+.selos
+{
+    display:flex;
+    justify-content: space-around;
+
+    margin-bottom: 50px;
+}
+
+#Frte, #seg1, #sup1, #qlt1
+{
+color:black;
+}
+#Frt, #seg2, #sup2, #qlt2
+{
+    color:#64748b;
+}
+
+.frete, .seguranca, .suporte, .quality
+{
+    display:flex;
+    font-size: 12px;
+    width:200px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+.frt1, .escd , .micro, .qlt
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

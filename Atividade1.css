@@ -1,6 +1,7 @@
 
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:ffffff;
 }
 .header{
     background-color:orangered;
@@ -29,21 +30,50 @@ a {
 
 .produto
 {
-    margin:20px;
-    height:auto;
-    width:auto;
-    background-color: antiquewhite;
+    margin:10px;
+   
+    background-color: white;
    border-radius:30px;
    display: flex;
-   flex-direction: column;
+   
    align-items: center;
-  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.05);
+  box-shadow: 0 30px 52px rgba(15, 23, 42, 0.05);
   
 }
-.Imagem{
-    width: fit-content;
+ .Imagem2,.Imagem3, .Imagem4, .Imagem5{
+    width: 70px;
+    margin-left: 10px;
 }
-
+.imgs_menor
+{
+    margin-top: 20px;
+    display:flex;
+justify-content: center;
+}
+.imgS
+{
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+}
+.Imagem2
+{
+    border: 3px solid orangered;
+}
+.Lcm{
+    width:130px;
+    background-color: orangered;
+    color:white;
+    border-radius:15px;
+    font-size:12px;
+    display:flex;
+    justify-content: center;
+}
+.topo
+{
+    display:flex;
+    flex-direction: column;
+}
 h1{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -56,43 +86,146 @@ h1{
    margin:10px;
     font-size:30px;
     display:flex;
+    justify-content: flex-start;
+    color:orangered;
+}
+.estoque
+{
+    font-size:10px;
+    background-color:green;
+  
+    color:white;
+    display:flex;
     justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    width:80px;
+    
+}
+.coluna
+{
+    display:flex;
+    justify-content:  space-evenly;
+}
+
+.especial
+{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.est{
+    font-size:10px;
+}
+
+.alcance
+
+{
+    width:30px;
+}
+.metros{
+    font-size:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alc{
+display:flex;
+justify-content: space-around;
+align-items: center;
+background-color: aliceblue;
+width:110px;
+border-radius:15px;
+margin-bottom:10px;
+padding:5px;
+}
+.bat
+
+{
+    width:30px;
+}
+.bateria{
+    font-size:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.duracao{
+display:flex;
+justify-content: space-around;
+align-items: center;
+background-color: aliceblue;
+width:110px;
+border-radius:15px;
+margin-bottom:10px;
+padding:5px;
+}
+.flash
+
+{
+    width:30px;
+}
+.raio{
+    font-size:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carregamento{
+display:flex;
+justify-content: space-around;
+align-items: center;
+background-color: aliceblue;
+width:110px;
+border-radius:15px;
+margin-bottom:10px;
+padding:5px;
+}
+.caracteristicas
+{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 20px;;
 }
 .footer {
-    padding: 25px 0;
 
+    padding: 25px 0;
     color: #64748b;
     background-color: #ffffff;
-
     border-top: 1px solid #e5e7eb;
-
     text-align: center;
-
     font-size: 0.9rem;
+     display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    
 }
+   
+
 
 .card {
     display:flex;
+    flex-direction:row;;
     justify-content: center;
     
 }
+.estrelas{
+    width:20px;
+    display: flex;
+    align-items:center;
 
-.comprar{
-    background-color:orangered;
-    color:aliceblue;
-    border-color: orangered;
-    border-radius: 5px;
-    margin-bottom: 5px;
 }
+span{
+    margin-left: 10px;
+    font-size: 12px;
 
-.carrinho{
     
-     background-color:orangered;
-    color:aliceblue;
-    border-color: orangered;
-    border-radius: 5px;
-    margin-bottom: 5px;
 }
+
 @media (max-width: 768px) {  /*Quando a tela tiver 768px, coloque os cards em uma coluna*/
     .task-list {
         grid-template-columns: 1fr;
@@ -106,9 +239,19 @@ h1{
 .carrinho-img{
     width:30px;
    filter: invert(1);      /* inverte a cor da imagem*/
+  
     
 }
-
+.carrinho2-img{
+    width:20px;
+   filter: invert(1);      /* inverte a cor da imagem*/
+    padding:10px
+    
+}
+.descricao
+{
+    margin-rigth:15px;
+}
 .Frete, .escudo, .fone, .qualidade{
     width:40px;
     align-items: center;
@@ -119,8 +262,6 @@ h1{
 {
     display:flex;
     justify-content: space-around;
-
-    margin-bottom: 50px;
 }
 
 #Frte, #seg1, #sup1, #qlt1
@@ -142,9 +283,35 @@ color:black;
     margin-bottom: 50px;
     
 }
-.frt1, .escd , .micro, .qlt
+
+.botao1
+{
+    color:white;
+    background-color:orangered;
+    border-radius: 15px;
+    width:400px;
+    height:35px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 10px;
+}
+.botao2
+{
+    color:white;
+    background-color:orangered;
+    border-radius:15px;
+    width:400px;
+    height:35px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+margin-bottom: 10px;
+}
+.botoes
+
 {
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
 }

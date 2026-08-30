@@ -9,6 +9,7 @@ body{
     display:flex;
     justify-content: space-around;
     align-items: center;
+    border-radius:15px;
 }
 .logo
 
@@ -37,12 +38,23 @@ a {
    display: flex;
    
    align-items: center;
-  box-shadow: 0 30px 52px rgba(15, 23, 42, 0.05);
+  box-shadow: 10px 10px  5px rgba(15, 23, 42, 0.05);
+  padding:20px;
+  border:1px solid rgb(206, 201, 201)
   
 }
  .Imagem2,.Imagem3, .Imagem4, .Imagem5{
     width: 70px;
     margin-left: 10px;
+     border:1px solid rgb(88, 87, 87);
+     border-radius:10px;
+
+}
+.Imagem
+{
+    border:1px solid rgb(88, 87, 87);
+     border-radius:10px;
+
 }
 .imgs_menor
 {
@@ -73,6 +85,7 @@ justify-content: center;
 {
     display:flex;
     flex-direction: column;
+    padding:20px;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -162,6 +175,7 @@ width:110px;
 border-radius:15px;
 margin-bottom:10px;
 padding:5px;
+
 }
 .flash
 
@@ -188,7 +202,8 @@ padding:5px;
 {
     display:flex;
     justify-content: space-around;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+   
 }
 .footer {
 
@@ -211,6 +226,7 @@ padding:5px;
     display:flex;
     flex-direction:row;;
     justify-content: center;
+    padding:30px;
     
 }
 .estrelas{
@@ -248,10 +264,13 @@ span{
     padding:10px
     
 }
-.descricao
-{
-    margin-rigth:15px;
+.carrinho3-img{
+    width:20px;
+    padding:10px
+    
 }
+
+
 .Frete, .escudo, .fone, .qualidade{
     width:40px;
     align-items: center;
@@ -288,7 +307,7 @@ color:black;
 {
     color:white;
     background-color:orangered;
-    border-radius: 15px;
+    border-radius: 5px;
     width:400px;
     height:35px;
     display:flex;
@@ -298,9 +317,10 @@ color:black;
 }
 .botao2
 {
-    color:white;
-    background-color:orangered;
-    border-radius:15px;
+    color:orangered;
+    background-color:white;
+    border-radius:5px;
+    border:1px solid orangered;
     width:400px;
     height:35px;
     display:flex;
@@ -314,4 +334,51 @@ margin-bottom: 10px;
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+.Cadeado{
+    width:30px;
+}
+.percentual{
+font-size:12px
+}
+.segCom
+{
+width: 150px;
+display:flex;
+justify-content:space-around;
+}
+.Garantia{
+    width:30px;
+}
+.check{
+font-size:12px
+}
+.gar
+{
+width: 150px;
+display:flex;
+justify-content:space-around;
+}
+.Devolucao{
+    width:30px;
+}
+.Setas{
+font-size:12px
+}
+.Dev
+{
+width: 150px;
+display:flex;
+justify-content:space-around;
+
+}
+.selos2
+{
+    display:flex;
+    justify-content: space-around;
+    padding:10px;
+}
+.descricao
+{
+    margin:20px;
 }
